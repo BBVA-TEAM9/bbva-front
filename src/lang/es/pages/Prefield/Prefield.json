@@ -1,0 +1,34 @@
+{
+    "es":{
+        "title":"PRE CAMPO",
+        "sub_title":"AREA DE PRE CAMPO",
+        "breadcrum":[
+            {
+                "title":"Dashboard",
+                "path":"/dashboard",
+                "active":false
+            },
+            {
+                "title":"pre-campo",
+                "path":"/pre-campo",
+                "active":true
+            }
+        ]
+    },
+    "en":{
+        "title":"PRE CAMPO (INGLES)",
+        "sub_title":"AREA DE PRE CAMPO (INGLES)",
+        "breadcrum":[
+            {
+                "title":"Dashboard",
+                "path":"/dashboard",
+                "active":false
+            },
+            {
+                "title":"pre-campo",
+                "path":"/pre-campo",
+                "active":true
+            }
+        ]
+    }
+}

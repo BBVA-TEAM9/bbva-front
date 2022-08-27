@@ -1,0 +1,36 @@
+{
+    "es":{
+        "index":{
+            "form_title":"Inicio de sesion",
+            "form_msg":"Mensaje de texto form"
+        },
+        "form_login":{
+            "user_name_input":{
+                "placeholder":"Ingrese su correo electronico"
+            },
+            "password":{
+                "placeholder":"Ingrese su contraseña"
+            },
+            "btn_login":{
+                "text":"Ingresar"
+            }
+        }
+    },
+    "en":{
+        "index":{
+            "form_title":"Inicio de sesion (INGLES)",
+            "form_msg":"Mensaje de texto form (INGLES)"
+        },
+        "form_login":{
+            "user_name_input":{
+                "placeholder":"Ingrese su correo electronico (INGLES)"
+            },
+            "password":{
+                "placeholder":"Ingrese su contraseña (INGLES)"
+            },
+            "btn_login":{
+                "text":"Ingresar"
+            }
+        }
+    }
+}

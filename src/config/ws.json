@@ -1,0 +1,8 @@
+{
+    "ws":{
+        "entity":{
+            "customer-get":{ "url":"customer/get", "method":"post" },
+            "customer-save":{ "url":"customer/save", "method":"post"}
+        }
+    }
+}
