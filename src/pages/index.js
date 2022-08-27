@@ -1,17 +1,16 @@
 import React, { useEffect,useRef,useState } from 'react';
-import {Wrapper,Status} from '@googlemaps/react-wrapper'
+//import {Wrapper,Status} from '@googlemaps/react-wrapper'
+import GoogleMaps from 'simple-react-google-maps'
 const Main = () => {
 
-    const [center,setCenter] = useState(0);
-    const [zoom,setZoom] = useState( { lat: -34.397, lng: 150.644 });
+    const [zoom,setZoom] = useState(15);
+    const [center,setCenter]  = useState( { lat: -12.0936588, lng: -77.0213396 });
    
 
   return (
-    <Wrapper apiKey="AIzaSyBI-kdtUj0qLtFHl7tvDhMRtKktakIj-9Q" render={render}>
-      <MyMapComponent center={center} zoom={zoom} />
-    </Wrapper>
+    <GoogleMaps apiKey={'AIzaSyCVfy_GfhhUNoOSFWelrEwE28PLWCGScrU'} zoom={zoom} center={center} style={{height:"500px",width:"500px"}}/>
   );
-}
+}/* 
 const render = (status)=> {
     if (status === Status.LOADING) return <h3>{status} ..</h3>;
     if (status === Status.FAILURE) return <h3>{status} ...</h3>;
@@ -30,5 +29,5 @@ const render = (status)=> {
   
     return <div ref={ref} id="map" />;
   }
-  
+   */
 export default Main;
