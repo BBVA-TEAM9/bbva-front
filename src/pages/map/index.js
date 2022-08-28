@@ -42,7 +42,7 @@ class Map extends React.Component {
     super(props);
     this.state= {
     changeOficina:this.props.changeOficina,
-    markers: this.props.markers};   //1.initialize initial state from props
+    markers: this.props.markers};
   }
 
   state = {
@@ -53,7 +53,7 @@ class Map extends React.Component {
 
  
   onClick = (markerData) => {
-    this.props.changeOficina(markerData)
+    this.state.changeOficina(markerData)
   };
  
 

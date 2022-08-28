@@ -8,7 +8,7 @@ export default class MapMarker extends React.Component {
   constructor(props) {
     super(props);
     this.state= {
-    
+      onClick:this.props.onClick
     };
   }
 
@@ -18,10 +18,10 @@ export default class MapMarker extends React.Component {
   };
 
   onMarkerClick = () => {
-    console.log(this.props.markerData)
     this.setState({
       showingInfoWindow: true
     });
+    this.state.onClick(this.props.markerData)
 
   };
 
