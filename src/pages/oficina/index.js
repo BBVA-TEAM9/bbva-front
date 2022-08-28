@@ -2,11 +2,14 @@ import React,{Component} from 'react';
 import {Navbar,Nav} from 'react-bootstrap';
 import image from "../layout/Image/bbva-logo-captura.PNG";
 import './oficina.css';
+import Aforo from './aforo';
+
 
 
 const Oficina = (props)=>{
 
     console.log('oficina',props.oficina);
+    //const oficina = props.oficina??{id:1}}
     return (
         
         <div className="banco">
@@ -14,6 +17,7 @@ const Oficina = (props)=>{
                 <h3 className="nombrebanco">
                     Banco ....
                 </h3>
+                <Aforo oficinaId={1} />
                 <h3 className="aforo">
                     Numero
                 </h3>
