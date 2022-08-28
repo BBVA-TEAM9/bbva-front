@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 
-import Main from './pages';
+import Main from './pages/layout/Main';
 import './app.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 
@@ -21,7 +21,7 @@ const App = () => {
     return (
         <Router>
             <Routes>
-                <Route path="personas/canales-de-atencion" element={<Main></Main>}> </Route>
+                <Route path="/" element={<Main></Main>}></Route>
             </Routes>
         </Router>
     )

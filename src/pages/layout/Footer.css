@@ -1,0 +1,33 @@
+.footer {
+    background-color: #072146;
+    padding: 30px 16px 50px;
+    text-align: center;
+    height: 260px;
+}
+.footer__logo {
+    display: inline-block;
+}
+.linea_blanca { 
+height: 600px;width:100%;padding:0px;background-color: white; 
+}
+.linknave {
+    color: white;
+}
+.bbva-icon, [class^='bbva-icon'] {
+    display: inline-block;
+}
+.footer__copyright {
+    margin-bottom: 16px;
+}
+.footer__copyright {
+    font-family: BentonSansBBVA-Book,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 24px;
+    color: #bdbdbd;
+    text-align: center;
+    padding: 8px 16px 24px;
+}
+.footer__claim {
+    color: #609aeb;
+}

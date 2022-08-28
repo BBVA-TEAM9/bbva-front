@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -6,7 +6,7 @@
     .btn-itemDropDown{
         @apply hover:bg-violet-500 text-gray-900 hover:text-white flex w-full items-center rounded-md p-2 text-sm
     }
-}
+} */
 /* 
 @layer base {
     @font-face {

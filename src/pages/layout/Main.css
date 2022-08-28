@@ -1,0 +1,13 @@
+.containermapa {
+    flex-direction: column;
+    border: 10px solid black;
+
+}
+.mapa {
+    flex:1;
+}
+.info {
+    flex:1;
+    border: 10px solid black;
+
+}

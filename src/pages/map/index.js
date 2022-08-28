@@ -8,7 +8,7 @@ const Main = () => {
    
 
   return (
-    <GoogleMaps apiKey={'AIzaSyCVfy_GfhhUNoOSFWelrEwE28PLWCGScrU'} zoom={zoom} center={center} style={{height:"500px",width:"500px"}}/>
+    <GoogleMaps apiKey={'AIzaSyCVfy_GfhhUNoOSFWelrEwE28PLWCGScrU'} zoom={zoom} center={center} style={{height:"500px",width:"80%"}}/>
   );
 }/* 
 const render = (status)=> {
