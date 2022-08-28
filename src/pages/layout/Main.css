@@ -1,13 +1,25 @@
 .containermapa {
-    flex-direction: column;
-    border: 10px solid black;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    padding: 25px;
+    /*grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));*/
 
 }
+
 .mapa {
-    flex:1;
+
+    display: flex;
+    padding-right: 20px;
+
+
 }
+
 .info {
-    flex:1;
-    border: 10px solid black;
+    padding-left: 20px;
+
+    display: flex;
+
+    /*flex-flow: column;*/
+
 
 }
