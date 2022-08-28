@@ -1,0 +1,46 @@
+.banco {
+    background-color:#8dc8e8;
+    width: 300px;
+    height: 300px;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+.superior {
+    display: flex;
+    align-items: center;
+}
+.nombrebanco {
+    color:#043263;
+    margin: 5px 10px;
+}
+.aforo {
+    margin: 5px 5px;
+    color:#043263;
+    text-align: end;
+}
+
+.infobanco {
+    margin: 3px 10px;
+    color: #043263;
+}
+
+.inferior {
+    margin: 3px 10px;
+    border: 1px solid #D4EDFC;
+    border-radius: 5px;
+    color:#043263;
+    overflow: hidden;
+    background-color: #D4EDFC;
+    justify-content: space-between; 
+}
+
+.inferior select {
+    padding: 5px 8px;
+    color: #043263;
+    border: none;
+    box-shadow: none;
+    background-color: #D4EDFC;
+    background-image: none;
+    appearance: none;
+}

@@ -1,8 +1,12 @@
 {
     "ws":{
         "entity":{
-            "customer-get":{ "url":"customer/get", "method":"post" },
-            "customer-save":{ "url":"customer/save", "method":"post"}
+            "aforo-historico-get":{ "url":"AforoHistorico", "method":"get" },
+            "oficina-aforo-get":{ "url":"oficina-aforo", "method":"get"},
+            "promedio-aforo-get":{ "url":"promedio-aforo", "method":"get"},
+            "oficinas-get":{ "url":"Oficinas", "method":"get"},
+            "oficinas-hub-oficinas-get":{ "url":"Oficinas/hub-oficinas", "method":"get"},
+            "operaciones-get":{ "url":"Operaciones", "method":"get"}
         }
     }
 }
