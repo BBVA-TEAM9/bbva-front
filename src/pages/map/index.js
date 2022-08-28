@@ -67,6 +67,7 @@ const Main = () => {
         zoom={10}
         onLoad={onLoad}
         onUnmount={onUnmount}
+        style={{height:"500px",width:"100%"}}
       >
         { /* Child components, such as markers, info windows, etc. */ }
         <></>
