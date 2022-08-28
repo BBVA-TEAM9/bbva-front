@@ -22,15 +22,64 @@ const Oficina = (props)=>{
                 <p> dirección</p>
                 <p> horario</p>
             </div>
-            <div className="inferior">
-               {/*  <label for="servicios">Selecciona un servicio:</label>
-                <select id="servicios">
-                    <option value="vacio">-</option>
-                    <option value="depósitos">Depositos</option>
-                    <option value="transferencia">Transferencias</option>
-                    <option value="prestamos">Préstamos</option>
-                    <option value="pagos">Pagos</option>
-                </select> */}
+            <p className="servicios">
+                Servicios
+            </p>
+            <div className="servicio1">
+                <ul>
+                    <div className="info">
+                        <li>
+                            Depósitos
+                        </li>
+                        <div className="popover__wrapper">
+                            <a href="#">
+                                <img img className="infomenu" src={infoImage} alt=""/>
+                            </a>
+                            <div className="popover__content">
+                                <p className="popover__message">Servicio digital, hazlo en 5 minutos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="info">
+                        <li>
+                            Transferencia
+                        </li>
+                        <div className="popover__wrapper">
+                            <a href="#">
+                                <img img className="infomenu" src={infoImage} alt=""/>
+                            </a>
+                            <div className="popover__content">
+                                <p className="popover__message">Servicio digital, hazlo en 5 minutos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="info">
+                        <li>
+                            Prestamos
+                        </li>
+                        <div className="popover__wrapper">
+                            <a href="#">
+                                <img img className="infomenu" src={infoImage} alt=""/>
+                            </a>
+                            <div className="popover__content">
+                                <p className="popover__message">Servicio presencial</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="info">
+                        <li>
+                            Pagos
+                        </li>
+                        <div className="popover__wrapper">
+                            <a href="#">
+                                <img img className="infomenu" src={infoImage} alt=""/>
+                            </a>
+                            <div className="popover__content">
+                                <p className="popover__message">Servicio presencial</p>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
             </div>
         </div>
        
