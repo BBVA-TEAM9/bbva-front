@@ -8,7 +8,7 @@ const Main = ()=>{
     return(
         <div>
             <Navigation></Navigation>
-            <div className="container">
+            <div className="">
                 <div className="containermapa">
                     <div className="mapa">
                         <MapComponent/>

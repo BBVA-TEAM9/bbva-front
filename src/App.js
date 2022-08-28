@@ -2,6 +2,7 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 
 import Main from './pages/layout/Main';
 import './app.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 
 import { faTimes, faBars, faTrash, faTachometerAlt, faChartLine, faSignOutAlt, faChevronDown, faPoll, faEdit, faClipboardList, faFolder } from "@fortawesome/free-solid-svg-icons";

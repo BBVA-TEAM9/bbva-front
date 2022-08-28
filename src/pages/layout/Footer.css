@@ -1,33 +1,73 @@
 .footer {
     background-color: #072146;
     padding: 30px 16px 50px;
-    text-align: center;
-    height: 260px;
+    /*text-align: center;*/
+    height: auto;
 }
+
 .footer__logo {
     display: inline-block;
 }
-.linea_blanca { 
-height: 600px;width:100%;padding:0px;background-color: white; 
+
+.linea_blanca {
+    height: 600px;
+    width: 100%;
+    padding: 0px;
+    background-color: white;
 }
+
 .linknave {
     color: white;
 }
+
 .bbva-icon, [class^='bbva-icon'] {
     display: inline-block;
 }
+
 .footer__copyright {
     margin-bottom: 16px;
 }
+
 .footer__copyright {
-    font-family: BentonSansBBVA-Book,Helvetica,Arial,sans-serif;
+    font-family: FontBBVA, Helvetica, Arial, sans-serif;
     font-size: 12px;
     line-height: 16px;
     margin-top: 24px;
     color: #bdbdbd;
-    text-align: center;
+    /*text-align: center;*/
     padding: 8px 16px 24px;
 }
+
 .footer__claim {
     color: #609aeb;
+    text-align: right;
+}
+
+.flex {
+    display: block;
+    float: right;
+}
+
+.flex a {
+    margin: 5px;
+}
+
+.footer__disclaimer ul {
+    margin-top: 30px;
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+.footer__disclaimer ul li {
+    display: inline;
+
+
+}
+
+.footer__disclaimer ul li a {
+    /*padding: 25px;*/
+    text-decoration: none;
+    margin-right: 25px;
+
+
 }
