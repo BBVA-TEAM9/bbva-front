@@ -15,6 +15,7 @@
     "@react-google-maps/api": "^2.12.2",
     "autoprefixer": "^10.4.1",
     "axios": "^0.24.0",
+    "bootstrap": "5.2.0",
     "env": "^0.0.2",
     "exceljs": "^4.3.0",
     "file-saver": "^2.0.5",
