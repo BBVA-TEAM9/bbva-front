@@ -6,6 +6,7 @@ import './oficina.css';
 
 const Oficina = (props)=>{
 
+    console.log(props.oficina);
     return (
         
         <div className="banco">

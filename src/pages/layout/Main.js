@@ -37,10 +37,10 @@ const Main = ()=>{
             <div className="">
                 <div className="containermapa">
                     <div className="">
-                        <MapComponent changeOficina={setOficina} markers={markers}/>
+                        <MapComponent changeOficina={(a)=>{setOficina(a)}} markers={markers}/>
 
                     </div>
-                    <Oficina></Oficina>
+                    <Oficina oficina={oficina}></Oficina>
                 </div>
                 
             </div>

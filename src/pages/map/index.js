@@ -41,6 +41,7 @@ class Map extends React.Component {
   constructor(props) {
     super(props);
     this.state= {
+    changeOficina:this.props.changeOficina,
     markers: this.props.markers};   //1.initialize initial state from props
   }
 
@@ -51,11 +52,8 @@ class Map extends React.Component {
   };
 
  
-  onClick = (isInfoOpen, selectedMarkerId) => {
-    this.setState({
-      isInfoOpen, 
-      selectedMarkerId
-    });
+  onClick = (markerData) => {
+    this.props.changeOficina(markerData)
   };
  
 
@@ -84,7 +82,8 @@ class Map extends React.Component {
                       isInfoOpen={
                         markerData.id === selectedMarkerId && isInfoOpen
                       }
-                      onClick={() => this.onClick()}
+
+                      onClick={() => this.onClick(markerData)}
                     />
                   ))
                 }

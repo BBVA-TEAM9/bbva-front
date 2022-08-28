@@ -4,15 +4,25 @@ import { Marker, InfoWindow } from "@react-google-maps/api";
 
 
 export default class MapMarker extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state= {
+    
+    };
+  }
+
   state = {
     mapMarker: null,
     showingInfoWindow: false
   };
 
-  onMarkerClick = (props) => {
+  onMarkerClick = () => {
+    console.log(this.props.markerData)
     this.setState({
       showingInfoWindow: true
     });
+
   };
 
   onInfoWindowClose = () =>
@@ -40,19 +50,6 @@ export default class MapMarker extends React.Component {
         clickable
         onClick={this.onMarkerClick}
       >
-        {this.state.showingInfoWindow === true && (
-          <InfoWindow
-            position={{
-              lat: markerData.lat,
-              lng: markerData.lng
-            }}
-            onCloseClick={this.onInfoWindowClose}
-          >
-            <div>
-           hola
-            </div>
-          </InfoWindow>
-        )}
       </Marker>
     );
   }
