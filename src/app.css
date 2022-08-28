@@ -68,7 +68,7 @@
 }
 
 .modal {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     height: 100%;
     width: 100%;
@@ -78,4 +78,13 @@
     align-items: center;
     justify-content: center;
     z-index: 50;
+}
+
+@font-face {
+    font-family: 'FontBBVA';
+    src: local('Lato'), url('./fonts/BentonSansBBVA-Medium.ttf') format('opentype');
+}
+
+body {
+    font-family: 'FontBBVA', 'Helvetica', sans-serif;
 }
